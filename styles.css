@@ -1,0 +1,93 @@
+* {
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+}
+ :root {
+     --color-white: #f3f3f3;
+     --color-darkblue: #1b1b32;
+     --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+     --color-green: #37af65;
+     --span-color:#e4e4e4;
+     --gradient-color-darkblue:rgba(58, 58, 158, 0.8);
+     --gradient-color-lightblue:rgba(136, 136, 206, 0.7);
+     --input-color:#495057;
+}
+ body {
+     background:linear-gradient( 115deg, var(--gradient-color-darkblue), var(--gradient-color-lightblue) ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg") center no-repeat;
+     background-size:cover;
+     mix-blend-mode:multiply;
+     padding-top:2rem;
+     font-family: 'Poppins', sans-serif;
+     min-height:100vh;
+}
+ header h1,p {
+     text-align:center;
+     color:var(--color-white);
+     margin:1rem auto ;
+     text-shadow:0px 0px 1px 
+}
+ p {
+     font-style:italic;
+     text-shadow:none 
+}
+ form {
+     width:70vw;
+     max-width:700px;
+     min-width:300px;
+     margin:2rem auto 0;
+     background:var(--color-darkblue);
+     padding:1.5rem;
+     border-radius:5px 
+}
+ fieldset {
+     border:none;
+}
+ label{
+    line-height:1.5rem;
+}
+ label,input,select,textarea {
+     display:block;
+     width:100%;
+     margin:0.4rem 0;
+     color:var(--color-white);
+     text-transform: capitalize;
+     border-radius:4px;
+     padding:.6rem;
+     border:none;
+}
+ input[type="radio"],input[type="checkbox"] {
+     display:inline-block;
+     width:unset;
+     height:unset;
+     margin-right:5px;
+}
+ input,select,textarea {
+     color:var(--input-color);
+     outline:1px solid var(--color-darkblue);
+     height:2.4rem;
+     font-size:15px;
+     box-shadow:0px 0px 5px var(--color-darkblue);
+     transition:border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+ input:hover,input:fous {
+     box-shadow:0px 0px 5px var(--gradient-color-darkblue); 
+}
+ label span {
+     color:var(--span-color);
+     font-size:14px;
+     opacity:96% 
+}
+ select option {
+     text-transform:captalize 
+}
+ textarea {
+     height:7rem 
+}
+ input[type="submit"] {
+     background:var(--color-green);
+     color:var(--color-white);
+     font-size:18px;
+     font-weight:500;
+}
+ 
