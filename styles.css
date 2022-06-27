@@ -16,7 +16,6 @@
  body {
      background:linear-gradient( 115deg, var(--gradient-color-darkblue), var(--gradient-color-lightblue) ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg") center no-repeat;
      background-size:cover;
-     mix-blend-mode:multiply;
      padding-top:2rem;
      font-family: 'Poppins', sans-serif;
      min-height:100vh;
